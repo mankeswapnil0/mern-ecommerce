@@ -26,6 +26,9 @@ app.use("/api/v1", product);
 app.use("/api/v1", user);
 app.use("/api/v1", order);
 app.use("/api/v1", payment);
+app.use("/ping", (req, res) => {
+  res.status(200).send("pong");
+})
 
 app.use(express.static(path.join(__dirname, "../frontend/build")));
 
