@@ -22,7 +22,7 @@ function About() {
               alt="Founder"
             />
 
-            <Typography>Pranjay Vats</Typography>
+            <Typography>Swapnil Manke</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
